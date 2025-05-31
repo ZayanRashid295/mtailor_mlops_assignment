@@ -2,6 +2,10 @@
 
 This project hosts a Flask application that serves an ONNX model for image classification using a ResNet18 architecture.
 
+LOOM LNKS:
+
+https://www.loom.com/share/86b78a3e7ed649cfad3ee5116590c86e?sid=dfc3a8d5-c025-4869-95a3-c9655f124640
+
 ---
 
 ## 📁 Project Files
