@@ -2,7 +2,7 @@ import requests
 from PIL import Image
 import io
 
-API_URL = "https://your-deployment-url/api/predict"  # Change this
+API_URL = 'http://127.0.0.1:8080/api/predict'
 
 def send_image(image_path: str):
     with open(image_path, "rb") as f:
