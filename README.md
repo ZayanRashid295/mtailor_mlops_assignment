@@ -412,17 +412,10 @@ python test.py
 docker build -t mtailor-onnx-model .
 
 ```
-
 4. Push image to Docker Hub and deploy on Cerebrium (follow platform instructions)
-
 5. Test remote deployment:
 ```
 
-python test\_server.py --image-path \<path\_to\_image>
-
-```
-
----
 
 ## File Descriptions
 
@@ -432,11 +425,6 @@ python test\_server.py --image-path \<path\_to\_image>
 - `test.py`: Local tests for model correctness
 - `test_server.py`: Test remote deployed model via API call
 - `Dockerfile`: Docker setup for deployment
-```
 
----
-
-
----
 
 
